@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/model-web/target/modul-web/WEB-INF/lib/model-utils-1.0-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/model-web/target/modul-web/WEB-INF/lib/model-service-1.0-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/model-web/target/modul-web/WEB-INF/lib/model-entity-1.0-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/model-web/target/modul-web/WEB-INF/lib/model-dao-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
