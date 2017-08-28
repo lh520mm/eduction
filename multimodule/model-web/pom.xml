@@ -10,10 +10,13 @@
     <packaging>war</packaging>
     <name>module-web</name>
     <url>http://maven.apache.org</url>
+<<<<<<< HEAD
     <properties >
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
+=======
+>>>>>>> a32ac4b8315f1f4117e2e789924cfb05c2316de1
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -99,7 +102,11 @@
     </dependencies>
 
     <build>
+<<<<<<< HEAD
         <finalName>model-web</finalName>
+=======
+        <finalName>modul-web</finalName>
+>>>>>>> a32ac4b8315f1f4117e2e789924cfb05c2316de1
         <plugins>
             <!-- START Of Plugins -->
             <!-- MAVEN COMPILER PLUGIN -->

@@ -22,6 +22,7 @@
 
         .tp {
             width: 100%;
+<<<<<<< HEAD
             height: 100%;
         }
         .title {
@@ -29,13 +30,26 @@
             width: 100%;
             float: left;
             padding: 30px;
+=======
+        }
+
+        .title {
+            width: 50%;
+            float: left;
+            margin-top: 10px;
+            margin-left: 20px;
+>>>>>>> a32ac4b8315f1f4117e2e789924cfb05c2316de1
         }
 
         .title li {
             float: left;
             list-style-type: none;
             margin-right: 30px;
+<<<<<<< HEAD
             font-size: 18px;
+=======
+            font-size: 16px;
+>>>>>>> a32ac4b8315f1f4117e2e789924cfb05c2316de1
             color: #4D555D;
             display: block;
         }
@@ -46,21 +60,38 @@
         }
 
         .msg {
+<<<<<<< HEAD
             height: 100%;
             float: left;
             padding: 20px;
             cursor: pointer;
         }
 
+=======
+            width: 10%;
+            float: right;
+        }
+
+        .msg li {
+            float: left;
+            margin-right: 30px;
+            list-style-type: none;
+            display: block;
+        }
+>>>>>>> a32ac4b8315f1f4117e2e789924cfb05c2316de1
 
         #content {
             clear: both;
             z-index: 1000;
             width: 100%;
             position: absolute;
+<<<<<<< HEAD
             top:80px;
             background:
             box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.26);
+=======
+            top: 60px;
+>>>>>>> a32ac4b8315f1f4117e2e789924cfb05c2316de1
         }
 
         #main {
@@ -133,6 +164,7 @@
             display: block;
             clear: both;
             width: 100%;
+<<<<<<< HEAD
             height: 110px;
             padding-top: 30px;
         }
@@ -168,17 +200,27 @@
             margin-right: 20px;
             color:#99a1a6;
             font-size: 14px;
+=======
+            height: 90px;
+            margin-top: 20px;
+>>>>>>> a32ac4b8315f1f4117e2e789924cfb05c2316de1
         }
     </style>
 </head>
 <body>
 
+<<<<<<< HEAD
 <div class="panel panel-default" style="border: none;">
     <div class="panel-heading" style="height:80px;padding:0;background: rgb(255, 255, 255) !important;">
         <div style="height: 100%;width: 15%;float: left;">
             <img src="image/logo_new.png" style="height: 100%;margin-left: 30px;">
         </div>
         <div style="height: 100%;width: 50%;float: left;">
+=======
+<div class="panel panel-default" style="border: none;padding: 0px;margin-bottom: 0px;">
+    <div class="panel-heading" style="height: 60px;background: rgb(255, 255, 255) !important;">
+        <div class="tp">
+>>>>>>> a32ac4b8315f1f4117e2e789924cfb05c2316de1
             <ul class="title">
                 <li>课程</li>
                 <li>课件</li>
@@ -187,6 +229,7 @@
                 <li>提问</li>
                 <li>社区</li>
             </ul>
+<<<<<<< HEAD
         </div>
 
         <div style="height: 100%;width: 35%;float: right;">
@@ -205,6 +248,12 @@
                 </p>
                 <p class="msg"><img src="image/mine_fill.png" style="height:100%;"></p>
             </div>
+=======
+            <ul class="msg">
+                <li><img src="image/remind_fill.png" style="height: 90%"></li>
+                <li><img src="image/mine_fill.png" style="height:90%;"></li>
+            </ul>
+>>>>>>> a32ac4b8315f1f4117e2e789924cfb05c2316de1
         </div>
     </div>
     <div class="panel-body" style="padding:0px;background-color:#f8fff7;clear: both; ">
@@ -212,10 +261,15 @@
             <div id="main">
                 <div id="bt">
                     <ul>
+<<<<<<< HEAD
                         <li>
                             <span style="font-size: 16px;">考研</span>
                             <img src="image/more.png" style="width: 20px;float: right">
                         </li>
+=======
+                        <li><span style="font-size: 16px;">考研</span><img src="image/more.png"
+                                                                         style="width: 20px;float: right"></li>
+>>>>>>> a32ac4b8315f1f4117e2e789924cfb05c2316de1
                         <li><span style="font-size: 16px;">四六级</span><img src="image/more.png"
                                                                           style="width: 20px;float: right"></li>
                         <li><span style="font-size: 16px;">中小学</span><img src="image/more.png"
@@ -229,6 +283,7 @@
                         <li><span style="font-size: 16px;">职业教育</span><img src="image/more.png"
                                                                            style="width: 20px;float: right"></li>
                     </ul>
+<<<<<<< HEAD
                     <%--模态框--%>
                     <div style="height:100%;width: 350px;background: #e8e8d0;position: absolute;top: 0px;left: 215px;display: none">
                         <ul>
@@ -238,6 +293,8 @@
                             <li>a</li>
                         </ul>
                     </div>
+=======
+>>>>>>> a32ac4b8315f1f4117e2e789924cfb05c2316de1
                 </div>
 
                 <div id="lb">
@@ -325,6 +382,7 @@
                 </div>
 
             </div>
+<<<<<<< HEAD
 
             <div id="tail">
                 <div style="background-color:#e9e9e9;height: 100%; border-top: 2px solid #ddd">
@@ -355,6 +413,13 @@
 
 
 
+=======
+            <div id="tail">
+                 <div style="height:30px;">
+                 </div>
+                <div style="background-color:#e9e9e9;height: 60px; border-top: 2px solid #ddd"></div>
+            </div>
+>>>>>>> a32ac4b8315f1f4117e2e789924cfb05c2316de1
         </div>
 
 
@@ -363,10 +428,13 @@
 </div>
 
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> a32ac4b8315f1f4117e2e789924cfb05c2316de1
 <script src="bootstrap/js/jquery.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script>
