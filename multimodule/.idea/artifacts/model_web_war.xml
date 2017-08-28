@@ -1,11 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="war" name="model-web:war">
     <output-path>$PROJECT_DIR$/model-web/target</output-path>
-<<<<<<< HEAD
     <root id="archive" name="model-web.war">
-=======
-    <root id="archive" name="modul-web.war">
->>>>>>> a32ac4b8315f1f4117e2e789924cfb05c2316de1
       <element id="artifact" artifact-name="model-web:war exploded" />
     </root>
   </artifact>

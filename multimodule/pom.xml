@@ -352,11 +352,8 @@
     </plugins>
     </build>
 
-<<<<<<< HEAD
 
 
-=======
->>>>>>> a32ac4b8315f1f4117e2e789924cfb05c2316de1
     <profiles>
         <profile>
             <id>development</id>
